@@ -1,0 +1,77 @@
+* {
+    font-family: roboto, sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.45vw;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    height: 6.875vw;
+    border-bottom: 0.260vw solid #fff;
+}
+.header__name, .main__name {
+    width: 23.229vw;
+    border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
+}
+.header__name {
+    padding: 2.3vw 1.042vw;
+    font-size: 1.615vw;
+}
+.header__cabinet, .main__cabinet {
+    width: 160px;
+    padding: 2.3vw 1.042vw;
+    border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
+    text-align: center;
+}
+.header__day, .main__time {
+    width: 10vw;
+    padding: 2.2vw 0;
+    text-align: center;
+    border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
+}
+.header__day {
+    padding: 2.2vw 0;
+}
+.main__time {
+    padding: 1.323vw 0;
+}
+.main__row {
+    display: flex;
+    justify-content: space-between;
+}
+.main__row:nth-child(2n) {
+    background: rgba(0, 0, 0, 0.24);
+}
+.main__name {
+     padding: 1.323vw 1.042vw;
+ }
+.main__cabinet {
+    padding: 1.323vw 1.042vw;
+}
