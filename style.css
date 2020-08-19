@@ -37,7 +37,7 @@ body {
     border-bottom: 0.260vw solid #fff;
 }
 .header__name, .main__name {
-    width: 37vw;
+    width: 30vw;
     border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
 }
 .header__name {
@@ -48,12 +48,12 @@ body {
     padding: 2.18vw 1.042vw;
 }
 .header__cabinet, .main__cabinet {
-    width: 260px;
+    width: 9vw;
     border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
     text-align: center;
 }
 .header__day, .main__time {
-    width: 13vw;
+    width: 12vw;
     text-align: center;
     border-right: 0.260vw solid rgba(0, 0, 0, 0.24);
 }
