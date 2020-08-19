@@ -60,7 +60,11 @@ body {
     padding: 2.2vw 0;
 }
 .main__time {
-    padding: 1.323vw 0;
+    padding: 1.5vw 0;
+}
+.header__day:last-child, .main__time:last-child {
+    border-right: 0;
+    margin-right: 0.4vw;
 }
 .main__row {
     display: flex;
@@ -70,8 +74,8 @@ body {
     background: rgba(0, 0, 0, 0.24);
 }
 .main__name {
-     padding: 1.323vw 1.042vw;
+     padding: 1.5vw 1.042vw;
  }
 .main__cabinet {
-    padding: 1.323vw 1.042vw;
+    padding: 1.5vw 1.042vw;
 }
